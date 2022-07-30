@@ -1,0 +1,340 @@
+.list {
+    position: relative;
+    width: 1417px;
+    height: 1765px;
+    background-color: #363740;   
+}
+.sidebar {
+    position: absolute;
+    width: 255px;
+    height: 608px;
+    left: 0px;
+    top: 0px;
+    background-color: #363740;
+
+}
+.logo {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 32px;
+    top: 37px;
+}
+.ellipse {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3751FF;
+    border-radius: 50%;
+}
+.d {
+    position: absolute;
+    left: 34.38%;
+    right: 28.12%;
+    top: 28.12%;
+    bottom: 28.12%;
+    /* background: linear-gradient(143.7deg, rgba(255, 255, 255, 0.7) 0%, #FFFFFF 100%); */
+}
+.dashboard {
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 76px;
+    top: 41px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #A4A6B3;
+    opacity: 0.7;
+}
+.dashboard:hover {
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 76px;
+    top: 41px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #DDE2FF;
+    opacity: 0.7;
+}
+.sidebarInActive {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 128px;
+}
+.sidebarIcon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 32px;
+    top: calc(50% - 16px/2);
+}
+.vector {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 2.94%;
+    bottom: 2.94%;
+    background-image: #9FA2B4;
+    opacity: 0.4;
+}
+.tickets {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 16.67%;
+    bottom: 16.67%;
+
+/* Main/LightBlue */
+
+    background: #DDE2FF;
+}
+.title {
+    position: absolute;
+    height: 20px;
+    left: 72px;
+    right: 24px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A4A6B3;
+    
+}
+.title:hover {
+    position: absolute;
+    height: 20px;
+    left: 72px;
+    right: 24px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;
+    cursor: pointer;
+}
+.titleUsers {
+    position: absolute;
+    height: 20px;
+    left: 72px;
+    right: 24px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #DDE2FF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.sidebarActive {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 184px;
+}
+.sheet {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / gray */
+    background: #9FA2B4;
+    opacity: 0.08;
+    color: #DDE2FF;
+}
+
+.selected{
+    position: absolute;
+    width: 3px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #DDE2FF;
+}
+.sidebarInActiveIdeas {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 240px;
+}
+.sidebarInActiveContacts {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 296px;
+}
+.sidebarInActiveAgents {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 352px;
+}
+.sidebarInActiveArticles {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 408px;
+}
+.dividerLineHorizontal {
+    position: absolute;
+    width: 255px;
+    height: 0px;
+    left: 0px;
+    top: 480px;
+    opacity: 0.06;
+}
+.divider {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+}
+.sidebarInActiveSettings {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 496px;
+}
+.sidebarInActiveSubscription {
+    position: absolute;
+    width: 255px;
+    height: 56px;
+    left: 0px;
+    top: 552px;
+}
+.textUser {
+    font-family: 'Mulish' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.2px !important;
+    color: #252733 !important;
+    padding-top: 19px !important;
+    position: relative !important;
+    height: 55px !important;
+    text-decoration:none;
+    
+}
+.textUserName {
+    padding-left: 24px;
+    /* padding-top: 10px; */
+    font-family: 'Mulish' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.2px !important;
+    color: #252733 !important;
+    padding-top: 19px !important;
+    position: relative !important;
+    height: 55px !important;
+    text-decoration:none;
+}
+.avatarWoman {
+    /* padding-top: 12px; */
+    
+width: 44px;
+height: 44px;
+left: 31px;
+top: calc(50% - 44px/2);
+}
+.usersNameAvatar {
+    display: flex;
+}
+.userBoxTest {
+    display: flex;
+    /* position: absolute; */
+    height: 70.5px;
+    left: 1px;
+    right: 1px;
+    border: 1.5px solid #DFE0EB;
+    /* top: 318px; */
+}
+.userBoxTest:hover {
+    /* background: #3751FF; */
+    /* opacity: 0.04; */
+    background: #F7F8FC;
+    cursor: pointer;
+}
+.userDetailsTest {
+    display: flex;
+    position: absolute;
+    height: 70.5px;
+    left: 31px;
+    right: 649px;
+    align-items: center;
+}
+.userCompanyTest {
+    position: absolute;
+    width: 208px;
+    height: 70.5px;
+    right: 401px;
+    display: flex;
+    align-items: center
+}
+.userEmailTest {
+    position: absolute;
+    width: 140px;
+    height: 70.5px;
+    right: 221px;
+    display: flex;
+    align-items: center
+}
+.userDistanceTest {
+    display: flex;
+    position: absolute;
+    width: 104px;
+    height: 70.5px;
+    right: 70px;
+    align-items: center
+}
+.allTicketsBoxTest {
+    position: absolute;
+    height: 736px;
+    left: 0px;
+    right: 0px;
+    top: 134px;
+}
+.iconMoreVertical {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 21px;
+    /* top: calc(50% - 24px/2); */
+    display: flex;
+    padding-top: 11.5px;
+}
+

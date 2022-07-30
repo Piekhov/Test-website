@@ -1,0 +1,143 @@
+.pageAllBox {
+    position: absolute;
+    height: 870px;
+    left: 287px;
+    right: 33px;
+    top: 297px;
+}
+.pageAllBoxSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.avatar {
+    position: absolute;
+    width: 145px;
+    height: 145px;
+    left: 503px;
+    top: 133px;
+    display: flex;
+}
+.pageName {
+    position: absolute;
+    height: 9px;
+    left: 325px;
+    right: 325px;
+    top: 284px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    color: #252733;
+    display: flex;
+    justify-content: center;
+}
+.pageCatchPhrase {
+    position: absolute;
+    height: 9px;
+    left: 325px;
+    right: 325px;
+    top: 333px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #797A84;
+    display: flex;
+    justify-content: center;
+}
+.pageAddressText {
+    position: absolute;
+    width: 144px;
+    height: 45px;
+    left: 53px;
+    top: 435px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pageAddressFull {
+    position: absolute;
+    width: 217px;
+    height: 40px;
+    left: 53px;
+    top: 494px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pagePhoneText {
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    left: 53px;
+    top: 558px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pagePhoneNumber {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 53px;
+    top: 617px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pageWebsiteText {
+    position: absolute;
+    width: 144px;
+    height: 45px;
+    left: 53px;
+    top: 661px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.pageWebsiteAddress {
+    position: absolute;
+    width: 114px;
+    height: 20px;
+    left: 53px;
+    top: 720px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    text-decoration-line: underline;
+    color: #3851FF;
+}

@@ -1,0 +1,1226 @@
+.bg {
+    position: absolute;
+    left: 255px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #F7F8FC;
+}
+.header {
+    position: absolute;
+    height: 44px;
+    left: 285px;
+    right: 33px;
+    top: 30px;
+}
+.titleUser {
+    position: absolute;
+    height: 34px;
+    left: 0px;
+    right: 351px;
+    top: calc(50% - 34px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+.headerIconSearch {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 271px;
+    top: calc(50% - 16px/2);
+}
+.headerIconNotifications {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 231px;
+    top: calc(50% - 16px/2);
+}
+.headerDividerLineVertical {
+    position: absolute;
+    width: 0px;
+    height: 32px;
+    right: 199px;
+    top: calc(50% - 32px/2 + 4px);
+}
+.headerDivider {
+    position: absolute;
+    width: 0px;
+    left: calc(50% - 0px/2);
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+}
+.headerName {
+    position: absolute;
+    width: 109px;
+    height: 18px;
+    right: 58px;
+    top: calc(50% - 18px/2);
+    /* SemiBold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* grayscale / black */
+    color: #252733;
+}
+.headerPhoto {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    left: 1055px;
+    top: 0px;
+}
+.cards {
+    position: absolute;
+    height: 134px;
+    left: 286px;
+    right: 33px;
+    top: 128px;
+}
+.unresolved {
+    position: absolute;
+    width: 252px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+}
+.unresolvedSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / white */
+    background: #FFFFFF;
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    display: flex;
+    color: #252733 !important;
+    color: #9FA2B4;
+    
+}
+.unresolvedSheet:hover{
+    background: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #3751FF;
+    border-radius: 8px;
+    color: #3751FF !important;
+}
+.unresolvedSheet:hover .unresolvedActive {
+    color: #3751FF !important;
+}
+.unresolvedText {
+    position: absolute;
+    height: 50px;
+    left: 32px;
+    right: 32px;
+    top: 60px;
+    /* Bold/40px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* grayscale / black */
+    /* color: #252733; */
+    display: flex;
+    justify-content: space-around
+}
+.unresolvedText:hover{
+    color: #3751FF !important;
+    cursor: pointer;
+}
+
+.unresolvedActive {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 32px;
+    top: 24px;
+    /* Bold/19px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.4px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+/* .unresolvedText:hover {
+    color: #ffca37;
+    cursor: pointer;
+}
+.unresolvedActive:hover:first-child {
+    color: #3751FF;
+    cursor: pointer;
+} */
+.overdue {
+    position: absolute;
+    width: 252px;
+    height: 134px;
+    left: 282px;
+    top: 0px;
+}
+.overdueCards {
+    position: absolute;
+    height: 134px;
+    left: 282px;
+    right: 564px;
+    top: 0px;
+}
+.overdueCardsSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / white */
+    background: #FFFFFF;
+    /* Main/Blue */
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    color: #252733;
+    display: flex;
+}
+.overdueCardsSheet:hover {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / white */
+    background: #FFFFFF;
+    /* Main/Blue */
+    border: 1px solid #3751FF;
+    border-radius: 8px;
+    color: #3751FF;
+    cursor: pointer;
+}
+.overdueCardsSheet:hover .overdueCardsOnline{
+    color: #3751FF;
+    cursor: pointer;
+}
+.overdueCardsText {
+    position: absolute;
+    height: 50px;
+    left: 32px;
+    right: 32px;
+    top: 60px;
+    /* Bold/40px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* Main/Blue */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+}
+.overdueCardsOnline {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 32px;
+    top: 24px;
+    /* Bold/19px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.4px;
+    /* Main/Blue */
+    color: #9FA2B4;
+}
+.overdueIcon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 596px;
+    top: 102px;
+}
+.cardsFiltered {
+    position: absolute;
+    width: 252px;
+    height: 134px;
+    left: 564px;
+    top: 0px;
+}
+.cardsFilteredSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / white */
+    background: #FFFFFF;
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    color: #252733;
+}
+.cardsFilteredSheet:hover {
+    border: 1px solid #3751FF;
+    border-radius: 8px;
+    color: #3751FF;
+    cursor: pointer;
+}
+.cardsFilteredSheet:hover .cardsFilteredText {
+    color: #3751FF;
+    cursor: pointer;
+}
+.cardsFilteredText {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 32px;
+    top: 24px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+    display: flex;
+    flex-direction: column;
+}
+.cardsFilteredNumber {
+    position: absolute;
+    height: 50px;
+    left: 32px;
+    right: 32px;
+    top: 60px;
+    /* Bold/40px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    /* grayscale / black */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.cardsBanned {
+    position: absolute;
+    width: 252px;
+    height: 134px;
+    left: 846px;
+    top: 0px;
+}
+.cardsBannedSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+    color: #252733;
+}
+.cardsBannedSheet:hover {
+    border: 1px solid #3751FF;
+    border-radius: 8px;
+    color: #3751FF;
+    cursor: pointer;
+}
+.cardsBannedSheet:hover .cardsBannedText {
+    color: #3751FF;
+    cursor: pointer;
+}
+.cardsBannedNumber {
+    position: absolute;
+    height: 50px;
+    left: 32px;
+    right: 32px;
+    top: 60px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.cardsBannedText {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 32px;
+    top: 24px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #9FA2B4;
+    display: flex;
+    flex-direction: column;
+}
+.ticketsTasks {
+    position: absolute;
+    height: 336px;
+    left: 285px;
+    right: 35px;
+    top: 1200px;
+}
+.unresolvedTickets {
+    position: absolute;
+    height: 336px;
+    left: 0px;
+    right: 563px;
+    top: 0px;
+}
+.unresolvedTicketsCardsDefault {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+.unresolvedTicketsSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    /* grayscale / white */
+    background: #FFFFFF;
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.unresolvedTicketsButtonText {
+    position: absolute;
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 20px/2);
+    /* SemiBold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* Main/Blue */
+    color: #3751FF;
+}
+.unresolvedTicketsButton {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    right: 32px;
+    top: 37px;
+}
+.unresolvedTicketsText {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 178px;
+    top: 32px;
+    /* Bold/19px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.groupSupport {
+    position: absolute;
+    height: 16px;
+    left: 32px;
+    right: 178px;
+    top: 64px;
+    /* Reg 12 (0.1 px) */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    letter-spacing: 0.1px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+}
+.text {
+    color: #252733
+}
+.unresolvedTicket_1 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 96px;
+}
+.unresolvedTicket_1_Text {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 136px;
+    top: calc(50% - 20px/2 + 1px);
+    /* SemiBold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.2px;
+    /* grayscale / black */
+    color: #252733;
+}
+.unresolvedTicket_1_Number{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+    /* SemiBold/14px */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    text-align: right;
+    letter-spacing: 0.2px;
+    /* grayscale / gray */
+    color: #9FA2B4;
+}
+.unresolvedTicketsDividerLine {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.unresolvedTicketsDivider {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.unresolvedTicket_2 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 154px;
+}
+.unresolvedTicket_2_Text {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 136px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.unresolvedTicket_2_Number {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px; 
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.unresolvedTickets_2_DividerLineBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.unresolvedTickets_2_Divider {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.unresolvedTicket_3 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 212px;
+}
+.unresolvedTicket_3_Text {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 136px;
+    top: calc(50% - 20px/2 + 1px);
+    
+    /* SemiBold/14px */
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    letter-spacing: 0.2px;
+    
+    /* grayscale / black */
+    
+    color: #252733;
+}
+.unresolvedTicket_3_Number {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+    
+    /* SemiBold/14px */
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    text-align: right;
+    letter-spacing: 0.2px;
+    
+    /* grayscale / gray */
+    
+    color: #9FA2B4;
+}
+.unresolvedTickets_3_DividerLineBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.unresolvedTickets_3_Divider {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    /* grayscale / divider */
+    border: 1px solid #DFE0EB;
+}
+.unresolvedTicket_4 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 270px;
+}
+.unresolvedTicket_4_Text {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 136px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.unresolvedTicket_4_Number {
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    right: 32px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.tasks {
+    position: absolute;
+    height: 336px;
+    left: 564px;
+    right: 0px;
+    top: 0px;
+}
+.tasksSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.tasksButtonBox {
+    position: absolute;
+    width: 84px;
+    height: 18px;
+    right: 32px;
+    top: 37px;
+}
+.tasksButtonText {
+    position: absolute;
+    height: 20px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 20px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #3751FF;
+}
+.tasksTasks {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 178px;
+    top: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.tasksToday {
+    position: absolute;
+    height: 16px;
+    left: 32px;
+    right: 178px;
+    top: 64px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.tasksCreate {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 96px;
+}
+.tasksCreateText {
+    position: absolute;
+    height: 20px;
+    left: 32px;
+    right: 178px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #C5C7CD;
+}
+.tasksIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 32px;
+    top: calc(50% - 24px/2);
+}
+.tasksCreateDividerBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.tasksCreateDividerLine{
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.tasksTask_2 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 212px;
+}
+.tasksTask_2_Text {
+    position: absolute;
+    height: 20px;
+    left: 68px;
+    right: 142px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.tasksTask_2_chipBox {
+    position: absolute;
+    width: 54px;
+    height: 24px;
+    right: 32px;
+    top: calc(50% - 24px/2);
+}
+.tasksTask_2_chipSheet {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #29CC97;
+    border-radius: 8px;
+}
+.tasksTask_2_chipTitle {
+    position: absolute;
+    height: 14px;
+    left: 12px;
+    right: 12px;
+    top: calc(50% - 14px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.tasksTask_2_checkBox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 32px;
+    top: calc(50% - 20px/2);
+}
+.tasksTask_2_dividerBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.tasksTask_2_dividerLine {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.tasksTask_1 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 154px;
+}
+.tasksTask_1_Text {
+    position: absolute;
+    height: 20px;
+    left: 68px;
+    right: 142px;
+    top: calc(50% - 20px/2 + 1px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px; 
+    color: #252733;
+}
+.tasksTask_1_chipBox {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    right: 32px;
+    top: calc(50% - 24px/2);
+}
+.tasksTask_1_chipSheet {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FEC400;
+    border-radius: 8px;
+}
+.tasksTask_1_chipTitle {
+    position: absolute;
+    height: 14px;
+    left: 12px;
+    right: 12px;
+    top: calc(50% - 14px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.tasksTask_1_checkBox {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 32px;
+    top: calc(50% - 20px/2);
+}
+.tasksTask_1_dividerBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.tasksTask_1_dividerLine {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.tasksTask_3 {
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 270px;
+}
+.tasksTask_3_chipSheet {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #F0F1F7;
+    border-radius: 8px;
+}
+.tasksTask_3_chipTitle {
+    position: absolute;
+    height: 14px;
+    left: 12px;
+    right: 12px;
+    top: calc(50% - 14px/2);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #9FA2B4;
+}
+.allTickets {
+    position: absolute;
+    height: 870px;
+    left: 285px;
+    right: 35px;
+    top: 300px;
+}
+.allTicketsSheet {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.allTicketsSheet2 {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+.allTicketsTableTop {
+    position: absolute;
+    height: 30px;
+    left: 1px;
+    right: 1px;
+    top: 104px;
+    display: flex;
+}
+.allTicketsUsersDetailes {
+    position: absolute;
+    height: 18px;
+    left: 31px;
+    right: 649px;
+    top: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+    
+}
+.allTicketsCompanyName {
+    position: absolute;
+    width: 208px;
+    height: 18px;
+    right: 401px;
+    top: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.allTicketsEmail {
+    position: absolute;
+    width: 140px;
+    height: 18px;
+    right: 221px;
+    top: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.allTicketsDistance {
+    position: absolute;
+    width: 104px;
+    height: 18px;
+    right: 70px;
+    top: 0px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.allTicketsDividerBox {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: 30px;
+}
+.allTicketsDividerLine {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1.5px solid #DFE0EB;
+}
+.allTicketsAllUsers {
+    position: absolute;
+    height: 24px;
+    left: 32px;
+    right: 690px;
+    top: 32px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.allTicketsGetUsers {
+    box-sizing: border-box;
+    position: absolute;
+    height: 392px;
+    left: 1px;
+    right: 1px;
+    top: 226px;
+    border: 2px solid red
+    /* background-color: #29CC97; */
+}
+.allTicketsTableBox {
+    position: absolute;
+    height: 92px;
+    left: 1px;
+    right: 1px;
+    top: 134px;
+}
+.allTicketsDividerLineTop {
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 0px/2);
+    border: 1px solid #DFE0EB;
+}
+.contentBox {
+    position: absolute;
+    width: 1033px;
+    height: 44px;
+    left: 31px;
+    top: 24px;
+    
+}
+.contentTicketName {
+    position: absolute;
+    height: 20px;
+    left: 99px;
+    right: 649px;
+    top: calc(50% - 20px/2 - 10px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.contentTicketInformation {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+    text-decoration:none;
+}
+.contentTicketInformationCity{
+    padding-left: 24px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+    text-decoration:none;
+}
+.contentCustomerName {
+    position: absolute;
+    width: 208px;
+    height: 20px;
+    right: 401px;
+    top: calc(50% - 20px/2 - 10px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.contentDateCustomer {
+    position: absolute;
+    width: 208px;
+    height: 16px;
+    right: 401px;
+    top: calc(50% - 16px/2 + 12px);
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
